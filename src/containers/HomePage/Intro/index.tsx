@@ -5,7 +5,6 @@ import SocialProfile from "components/SocialProfile/SocialProfile"
 import { IntroWrapper, IntroImage, IntroTitle, Desciption } from "./style"
 import {
   IoLogoFacebook,
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
 } from "react-icons/io"
@@ -33,7 +32,7 @@ const SocialLinks = [
 const Intro: React.FunctionComponent<IntroProps> = props => {
   const Data = useStaticQuery(graphql`
     query {
-      avatar: file(absolutePath: { regex: "/author.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/author.png/" }) {
         childImageSharp {
           fluid(maxWidth: 210, maxHeight: 210, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG

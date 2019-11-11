@@ -2,7 +2,7 @@
 title: There is no getting there. You're already there.
 date: '2019-11-11'
 description: This September I made a decision to step away from my remote software job.  I had been working towards becoming a digital nomad for nearly 2 years so that I could sustainably do what I love see the world.  I finally reached the goal I had set for myself...
-tags: ['javascript', 'hooks', 'test']
+tags: []
 cover: './preview.jpg'
 slug: 'can-i-use-hooks-today'
 ---

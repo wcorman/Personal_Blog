@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `StoryHub`,
     author: `Wes`,
-    about: `I have a passion for creating, exploring, and learning.  This is my corner of the internet to put my ideas and thoughts out into the universe.`,
+    about: `I have a passion for creating, exploring, and learning.  This is my corner of the internet to put my ideas and thoughts out into space.`,
     description: `A Gatsby Blog`,
     siteUrl: `http://wescorman.me/`,
   },

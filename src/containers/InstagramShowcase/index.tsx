@@ -44,7 +44,7 @@ const InstagramShowcase: React.FunctionComponent<ShowcaseProps> = props => {
             fontSize: "20px",
           }}
         />
-        highlight reel, not the whole story
+        highlight reel
       </ShowcaseTitle>
       <InstashowcaseRow>
         {InstaPosts && (
