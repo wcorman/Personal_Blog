@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `StoryHub`,
     author: `Wes`,
-    about: `I have a passion for creating, exploring, and learning.  This is my corner of the internet to put my ideas and thoughts out into space.`,
+    about: `I have a passion for creating, learning, and connecting dots in my head that maybe don't need to be connected.  This is my corner of the internet to put my ideas and thoughts out into space.`,
     description: `A Gatsby Blog`,
     siteUrl: `http://wescorman.me/`,
   },
@@ -92,8 +92,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StoryHub - Personal Blog`,
-        short_name: `StoryHub`,
+        name: `Wes Corman - Personal Blog`,
+        short_name: `Wes' blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
