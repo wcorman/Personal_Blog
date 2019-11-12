@@ -28,7 +28,7 @@ const InstagramGrid: React.FunctionComponent<InstagramGridProps> = ({
 }) => {
   return (
     <InstagramGridWrapper>
-      <a href={url}>
+      <a href={url} target="_blank">
         <Overlay />
         <PostImage>
           <Img fluid={image} alt={alt || 'instagram-image'} />
