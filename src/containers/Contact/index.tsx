@@ -33,8 +33,7 @@ const Contact: React.SFC<{}> = () => {
         actions: FormikActions<MyFormValues>
       ) => {
         setTimeout(() => {
-          console.log({ values, actions })
-          alert(JSON.stringify(values, null, 2))
+          window.open(`mailto:wcorman@gmail.com?subject=${'Hey, this is ' + values.firstName}&body=${values.message}`);
           actions.setSubmitting(false)
         }, 700)
       }}
